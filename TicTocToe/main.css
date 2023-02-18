@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(to right, #E58C8A, #EEC0C6);
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 2rem;
+  color: #ff1713;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  background-color: rgba(252, 249, 249, 0.4941176471);
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.grid {
+  border: 1px solid #E58C8A;
+  font-size: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fa504d;
+  transition: all 0.5s ease-in-out;
+}/*# sourceMappingURL=main.css.map */
